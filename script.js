@@ -35,3 +35,6 @@ console.log(firstScore, secondScore);
 //part 4 
 const clonedStudent = { ...student, graduationYear: 2026};
 console.log(clonedStudent);
+console.log(student.graduationYear);
+
+const newCourses = ["Art", "Gym"];
