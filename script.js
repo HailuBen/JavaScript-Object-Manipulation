@@ -44,3 +44,10 @@ console.log(allCourses);
 
 
 //part 5
+student.addCourse = function(course) {
+    this.courses.push(course);
+};
+student.totalCourses = function() {
+    return this.courses.length;
+};
+
