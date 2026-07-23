@@ -38,3 +38,9 @@ console.log(clonedStudent);
 console.log(student.graduationYear);
 
 const newCourses = ["Art", "Gym"];
+const allCourses = [...student.courses, ...newCourses];
+
+console.log(allCourses);
+
+
+//part 5
