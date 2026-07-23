@@ -51,3 +51,6 @@ student.totalCourses = function() {
     return this.courses.length;
 };
 
+student.addCourse("Chemistr");
+console.log(student.courses);
+console.log(student.totalCourses());
