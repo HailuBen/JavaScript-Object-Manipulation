@@ -22,3 +22,11 @@ console.log(studentObject);
 console.log(studentObject.name === student.name);
 console.log(studentObject === student);
 
+//part3
+const { name, courses } = student;
+console.log(name);
+console.log(courses);
+
+const scores = [75, 22, 98, 90];
+const [firstScore, secondScore] = scores;
+console.log(firstScore, secondScore);
